@@ -3,7 +3,7 @@ module pcMux(
 input wire PCSrc,
 input wire [31:0] PCPlus4,
 input wire [31:0] PCTarget
-output wire [31:0] PCNext
+output reg [31:0] PCNext
 
 );
 
